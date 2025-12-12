@@ -25,9 +25,9 @@ body {
     color: white;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
 }
-/* Fundos das imagens (agora a funcionar com Imagens/ e .jpeg) */
-#p1 { background-image: url('Imagens/imagem1.jpeg'); }
-#p2 { background-image: url('Imagens/imagem8.jpeg'); }
+/* Fundos das imagens (CORRIGIDO: Referência à pasta 'Imagens/' removida) */
+#p1 { background-image: url('imagem1.jpeg'); } 
+#p2 { background-image: url('imagem8.jpeg'); } 
 
 /* Conteúdo P1 e P2 (posicionamento) */
 .p1-content { position: absolute; bottom: 50px; right: 50px; text-align: right; max-width: 450px; }
